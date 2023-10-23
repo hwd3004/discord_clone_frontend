@@ -22,4 +22,6 @@ NextJS에서 사용 시에는 주의가 필요한듯 하다.
 https://mantine.dev/getting-started/
 
 npm install @mantine/core @mantine/hooks @mantine/form @mantine/dates dayjs @mantine/notifications @mantine/code-highlight @mantine/tiptap @tabler/icons-react @tiptap/react @tiptap/extension-link @tiptap/starter-kit @mantine/dropzone @mantine/carousel embla-carousel-react @mantine/spotlight @mantine/modals @mantine/nprogress
+
+npm install --save-dev postcss postcss-preset-mantine postcss-simple-vars
 ```
