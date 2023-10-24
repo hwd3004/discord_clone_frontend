@@ -19,7 +19,6 @@ import {
 import { useState } from "react";
 import classes from "./CreateServerModal.module.css";
 import { IconUpload, IconX } from "@tabler/icons-react";
-import { type } from "./../../stores/generalStore";
 
 const CreateServerModal = () => {
   const { isOpen, closeModal } = useModal("CreateServer");
@@ -57,7 +56,11 @@ const CreateServerModal = () => {
   };
 
   return (
-    <Modal title="Create a server" opened={isOpen} onClose={closeModal}>
+    <Modal
+      title="Create a server"
+      opened={isOpen}
+      onClose={closeModal}
+    >
       <Text c={"dimmed"}>
         Give your server a personality with a name and an
         image. You can always change it later.
